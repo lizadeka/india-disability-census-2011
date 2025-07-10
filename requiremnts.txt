@@ -1,0 +1,156 @@
+requests
+beautifulsoup4
+pandas
+matplotlib
+seaborn
+
+🧠 Analytical Project Names
+
+    India Disability Census Dashboard
+
+    Mapping Disability in India: Census 2011 Analysis
+
+    Understanding Disability Trends in Scheduled Castes (C-20 SC Data)
+
+    Disability Insights – Census 2011 (Scheduled Castes)
+
+    Disability Demographics Explorer – India SC Census
+
+🎯 Descriptive + Impactful Titles (for resume/portfolio)
+
+    "Analyzing Disability Prevalence in India (SC C-20): A State and District-Level Census Study"
+
+    "Web-Scraped Disability Data Dashboard: Insights from C-20 SC Tables – Census 2011"
+
+    "Disability Type & Gender Breakdown in Indian States – Data Analytics Project"
+
+🎓 Academic/Capstone Style Titles
+
+    "An Analytical Study of Disability among Scheduled Castes in India using Census 2011 C-20 SC Data"
+
+    "Spatial and Demographic Analysis of Disabilities in India: A Census-Based Approach"
+
+
+🔧 Technical & Data-Centric Project Names
+
+    india-disability-census-analysis
+
+    census2011-disability-sc-data-insights
+
+    scheduled-caste-disability-analytics
+
+    c20sc-disability-data-dashboard
+
+    disability-distribution-sc-census2011
+
+    india-census-disability-explorer
+
+    sc-disability-patterns-india-2011
+
+    census-disability-analysis-pipeline
+
+    pan-india-disability-data-engine
+
+    c20sc-disability-data-etl-visualizer
+
+📦 Best All-in-One Name (recommended for GitHub):
+
+c20sc-disability-analytics-india
+
+It clearly indicates:
+
+    You're analyzing C-20 SC census data
+
+    The focus is on disability statistics
+
+    It's a nationwide (India) project
+
+------------------------------------------
+# 🧠 India Census Disability Data Analyzer – C-20 SC (2011)
+
+This project analyzes the *Disability by Type and Gender* data for **Scheduled Castes (SC)** from the C-20 Census 2011 tables published by the Government of India. It covers all states and union territories.
+
+## 📊 What This Project Does
+- Scrapes and parses 35+ Excel files from [censusindia.gov.in](https://censusindia.gov.in)
+- Extracts structured data on disability type, gender, region (rural/urban), and district/state
+- Cleans and merges inconsistent schemas (33 to 30-column mismatch handling)
+- Summarizes total disabled populations by:
+  - State
+  - District
+  - Gender
+  - Disability type
+- Visualizes key patterns using Pandas, matplotlib (or Streamlit, optional)
+
+## 🔧 Tools & Tech Used
+- Python 🐍
+- Pandas & NumPy
+- BeautifulSoup for data extraction
+- Excel (.xlsx) automation with `openpyxl`
+- Streamlit (optional for interactive dashboard)
+- Git for version control
+
+## 🧩 Example Insights
+- Top 5 states with highest disabled SC population
+- Gender gap in disability types (e.g., movement vs. mental illness)
+- Urban–Rural disability distribution heatmaps (if extended)
+
+## 📁 Folder Structure
+---------------------------------
+
+For Resume (2–3 bullets, concise & impact-focused)
+
+📌 India Census Disability Data Analysis (C-20 SC, Census 2011)
+- Scraped 35+ Excel files from censusindia.gov.in using BeautifulSoup to automate data collection across Indian states for SC disability demographics.
+- Cleaned and standardized mismatched data schemas using Pandas; merged all datasets into a unified structure.
+- Analyzed type-wise and gender-wise disability distribution, ranking states and districts by total disabled SC population.
+-------------------------------
+linkedin post
+
+🔍 After exploring multiple project ideas, I wanted to work on something meaningful and technically strong — something that 
+truly adds value to my resume as a Data Analyst.
+So, after exploring numerous data sources and ideas, I decided to deep-dive into something that could 
+not only strengthen my resume but also highlight my data analysis skills.
+I turned to the India Census 2011 — one of the richest public datasets available. But I soon realized that 
+many commonly studied topics had already been widely analyzed.
+
+🔍 After some thorough searching, I came across the Disability Data for Scheduled Caste (C-20 SC) population — an important and underexplored dataset.
+
+🔧 I scraped 35+ Excel files from censusindia.gov.in using BeautifulSoup, parsed and cleaned them with Pandas, and analyzed trends by:
+
+    State & district
+
+    Gender
+
+    Type of disability (seeing, hearing, speech, mental illness, multiple, etc.)
+
+📊 Key insights included:
+
+    Which states have the highest disability burden among SCs
+
+    Gender-based patterns in types of disability
+
+    Rural-urban splits across India
+
+🛠️ Tools Used: Python · BeautifulSoup · Pandas · Seaborn · Matplotlib
+
+🧭 What’s next? I plan to build an interactive Streamlit app to make these insights more accessible.
+
+🔗 GitHub repo: [Your GitHub link here]
+
+I faced multiple technical challenges:
+
+    ❌ While scraping data from the Census India website, I struggled to extract the correct download links using BeautifulSoup due to messy and inconsistent HTML structures.
+    👉 Solved it with help from ChatGPT and refined my scraping logic to correctly capture all 35+ Excel files.
+
+    ❌ While merging Excel files, I hit “Length mismatch” errors because some files had different column counts or orders.
+    👉 I had to write custom cleaning scripts in Pandas to standardize and merge all files into one consolidated dataset.
+
+🧩 The project wasn’t without challenges:
+
+    Each state had a separate Excel file, with inconsistencies in column structure.
+
+    I encountered “Length mismatch” errors due to unexpected differences in the number of columns.
+
+    Some columns had different names or orders, making it hard to align and merge data across all files.
+
+    I had to build custom logic to read, clean, and harmonize all the files into a single usable DataFrame.
