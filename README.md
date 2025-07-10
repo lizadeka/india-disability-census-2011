@@ -39,10 +39,8 @@ This project analyzes the state-wise and district-wise disability data for Sched
 
 - States with the highest disability counts among SC population.
 - Gender-based disability trends.
-- Heatmap showing regional variations.
 - Urban vs rural disability pattern analysis.
 
-*Sample visualizations are included in the `/outputs` folder.*
 
 ---
 
