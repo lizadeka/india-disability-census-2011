@@ -12,7 +12,6 @@ This project analyzes the state-wise and district-wise disability data for Sched
 - Understand the prevalence of disability across Indian states.
 - Explore gender and age disparities in disability types.
 - Identify top and bottom districts by disability rates.
-- Visualize rural vs urban trends in disability data.
 
 ---
 
