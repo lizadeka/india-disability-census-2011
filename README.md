@@ -47,5 +47,9 @@ This project analyzes the state-wise and district-wise disability data for Sched
 ## 🚀 How to Run
 
 ```bash
+# Install required packages
 pip install -r requirements.txt
+
+# Open the notebook
+jupyter notebook notebooks/main.ipynb
 
